@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5,7,12,0.75)), url(./Imagenes/index.jpg);
+    background-size: cover;
+    .header1{
+        display: grid;
+        grid-template-columns: 30px 30px 30px 30px;
+        grid-template-rows: auto;
+        justify-content: center;
+        background-color: rgb(145, 145, 145);
+    }
+
+    .header2{
+        display: grid;
+        grid-template-columns: 150px auto auto;
+        grid-template-rows: 80px;
+        line-height: 100px;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 5px solid orangered;
+        line-height: 50px;
+        padding-top: 15px;
+        padding-right: 10px;
+
+        a:hover{
+            color: orangered;
+        }
+
+        h1{
+            color: orangered;
+            padding-left: 15px;
+        }
+        li{
+            display: inline-flex;
+            padding-left: 50px;
+            line-height: 60px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    main{
+        display: grid;
+        grid-template-rows: auto auto;
+        background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5,7,12,0.75)), url(./Imagenes/index.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: grid;
+        text-align: left;
+        justify-content: center;
+        align-content: center;
+        #marca{
+            background: linear-gradient(rgba(255, 69, 0, 0.5), rgba(255,69,0,0.5));
+            display: inline-flex;
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            border-radius: 10px;
+            padding-bottom: 10px;
+            padding-top: 0px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin: 0px;
+            font-family: Times, 'Times New Roman', serif;
+        }
+        #slogan{
+            color: white;
+            font-size: 50px;
+            display: inline-flex;
+            font-family: Times, 'Times New Roman', serif;
+        }
+        #boton{
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            font-family: Times, 'Times New Roman', serif;
+        }
+        h4{
+            color: white;
+            display: inline-flex;
+            font-size: 25px;
+            margin-top: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 10px;
+            border-color: aliceblue;
+            border-radius: 20px;
+            background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5));
+            text-align: center;
+            font-family: Times, 'Times New Roman', serif;
+        }
+        
+    }
+    footer{
+        color: white;
+    }
+}
