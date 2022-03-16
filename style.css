@@ -44,6 +44,7 @@ body .header2 a:hover {
 body .header2 h1 {
   color: orangered;
   padding-left: 15px;
+  font-size: 30px;
 }
 
 body .header2 li {
@@ -135,6 +136,12 @@ body main h4 {
 }
 
 body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
